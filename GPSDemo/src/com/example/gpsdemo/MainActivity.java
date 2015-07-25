@@ -1,5 +1,7 @@
 package com.example.gpsdemo;
 
+import com.example.gpsdemo.user.EndUserActivity;
+
 import android.support.v7.app.ActionBarActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -55,7 +57,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener{
 			mIntent = new Intent(this, Restaurant.class);
 			break;
 		case R.id.end_user :
-			mIntent = new Intent(this, EndUser.class);
+			mIntent = new Intent(this, EndUserActivity.class);
 			break;
 			
 		}

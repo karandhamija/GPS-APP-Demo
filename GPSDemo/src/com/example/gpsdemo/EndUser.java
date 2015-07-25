@@ -1,22 +1,21 @@
 package com.example.gpsdemo;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.Toast;
 
-public class EndUser extends ActionBarActivity implements OnClickListener{
+public class EndUser extends AppCompatActivity implements OnClickListener{
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_enduser);
-		Button trackSubmit = (Button) findViewById(R.id.track_submit);
-		trackSubmit.setOnClickListener(this);
+//		Button trackSubmit = (Button) findViewById(R.id.track_submit);
+//		trackSubmit.setOnClickListener(this);
 	}
 
 	@Override
@@ -43,9 +42,9 @@ public class EndUser extends ActionBarActivity implements OnClickListener{
 		// TODO Auto-generated method stub
 		switch (v.getId()){
 		
-		case R.id.track_submit :
-			Toast.makeText(this, "Tracking the ID", Toast.LENGTH_LONG).show();
-			break;
+//		case R.id.track_submit :
+//			Toast.makeText(this, "Tracking the ID", Toast.LENGTH_LONG).show();
+//			break;
 			
 		}
 		

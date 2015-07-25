@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EndUser">
+            android:name=".user.EndUserActivity">
         </activity>
         <activity
             android:name=".MyBoy">
