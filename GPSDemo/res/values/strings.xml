@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPSDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_boy">Delivery Boy</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="end_user">End User</string>
+    <string name="submit">Submit</string>
+    <string name="time_ten">Pickup Delivery in 10 Minutes</string>
+    <string name="time_twenty">Pickup Delivery in 20 Minutes</string>
+    <string name="time_thirty">Pickup Delivery in 30 Minutes</string>
+    <string name="time_forty">Pickup Delivery in 40 Minutes</string>
+    <string name="end_customer_phone">Enter End Customer Phone Number</string>
+    <string name="locality">Select Delivery Locality</string>
+    <string name="track_text">Please Enter Tracking ID</string>
+    <string name="track_submit">Submit Tracking ID</string>
+
+</resources>
