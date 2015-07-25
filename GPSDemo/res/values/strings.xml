@@ -16,5 +16,8 @@
     <string name="locality">Select Delivery Locality</string>
     <string name="track_text">Please Enter Tracking ID</string>
     <string name="track_submit">Submit Tracking ID</string>
+    <string name="gps_network_not_enabled">GPS not enabled</string>
+    <string name="open_location_settings">Location Settings</string>
+    <string name="cancel_dialog">Cancel</string>
 
 </resources>
