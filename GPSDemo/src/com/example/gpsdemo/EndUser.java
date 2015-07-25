@@ -6,7 +6,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Toast;
 
 public class EndUser extends AppCompatActivity implements OnClickListener{
 
@@ -32,7 +31,7 @@ public class EndUser extends AppCompatActivity implements OnClickListener{
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
-			return true;
+			return true; 
 		}
 		return super.onOptionsItemSelected(item);
 	}
@@ -40,11 +39,11 @@ public class EndUser extends AppCompatActivity implements OnClickListener{
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
-		switch (v.getId()){
-		
+		switch (v.getId()){		
 //		case R.id.track_submit :
 //			Toast.makeText(this, "Tracking the ID", Toast.LENGTH_LONG).show();
 //			break;
+
 			
 		}
 		
